@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="/jquery" type="text/javascript"></script>
+    <link rel="stylesheet" href="/bootstrap/css">
+    <script src="/bootstrap/js"></script>
+    <link rel="stylesheet" href="/css/header">
+    <script type="text/javascript">
+    $('document').ready(() => {
+      $("#header").load("/header");
+    });
+    </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <style>
+      #header {
+        font-family: 'Lobster', serif;
+      }
+      #cello, #title {
+        font-family: 'Playfair Display', serif;
+      }
+    </style>
+  </head>
+  <body style="background: url('/cello_background') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"">
+    <div id="header"></div>
+    <h1 id="title" style="padding-top: 100px; color: #FFFFFF" class="jumbotron-grey container">Cello</h1>
+    <div id="cello" style="margin: 0 auto; width: 500px; padding-top: 100px; color: #FFFFFF" class="jumbotron-grey container">
+      <p>This is a placeholder for my text about school orchestra.</p>
+      <iframe width="500" height="400" src="https://www.youtube.com/embed/gZMEwtAXVsw"></iframe>
+      <p>This is a placeholder for my text about my performance of the Swan.</p>
+      <iframe width="500" height="400" src="https://www.youtube.com/embed/b44-5M4e9nI"></iframe>
+      <p>This is a placeholder for my text about my performance of the Courante.</p>
+      <iframe width="500" height="400" src="https://www.youtube.com/embed/GwDn8eqtinw"></iframe>
+    </div>
+  </body>
+</html>
