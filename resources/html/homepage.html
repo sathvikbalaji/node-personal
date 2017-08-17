@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="/jquery" type="text/javascript"></script>
-    <link rel="stylesheet" href="/bootstrap/css">
-    <script src="/bootstrap/js"></script>
-    <link rel="stylesheet" href="/css/header">
-    <script type="text/javascript">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/jquery" type="text/javascript"></script>
+  <link rel="stylesheet" href="/bootstrap/css">
+  <script src="/bootstrap/js"></script>
+  <link rel="stylesheet" href="/css/header">
+  <script type="text/javascript">
     $('document').ready(() => {
       $("#header").load("/header");
     });
-    </script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <style>
-      #header {
-        font-family: 'Lobster', serif;
-      }
-      #name, #about-me {
-        font-family: 'Playfair Display', serif;
-      }
-    </style>
-  </head>
-  <body style="background: url('/beach') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
-    <div id="header"></div>
-    <div id="name" class="jumbotron-grey container" style="padding-top: 100px;">
-      <h1>Sathvik Balaji</h1>
-    </div>
-    <div id="about-me" class="jumbotron-grey container" style="padding-top: 100px;">
-      <p style="display: inline-block; vertical-align: middle; color: #FFFFFF;">
-        I am a senior at Cupertino High School.
-      </p>
-  </body>
+  </script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <style>
+    #header {
+      font-family: 'Lobster', serif;
+    }
+
+    #name,
+    #about-me {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+
+<body style="background: url('/beach') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+  <div id="header"></div>
+  <div id="name" class="jumbotron-grey container" style="padding-top: 100px;">
+    <h1>Sathvik Balaji</h1>
+  </div>
+  <div id="about-me" style="padding-top: 100px; padding-left: 200px; width: 600px; align: left; color:#000000;">
+    <p style="display: inline-block; vertical-align: middle; ">
+      <h4>I am a senior at Cupertino High School, California. I am heading to college fall of 2018 and I am excited and look forward to this new phase of my life. I plan to pursue an undergraduate degree in Computer Science.
+      To that end, I am preparing myself by enrolling in the AP Computer Science A as well as AP Statistics classes.</h4>
+    </p>
+    <p style="display: inline-block; vertical-align: middle;">
+      <h4>I play the Cello and I am a section lead and first chair at the Cupertino High School's prestigious Chamber Orchestra. I am passionate about the game of soccer, having played a competitive league in the Santa Clara County.
+      I have also volunteered at the American Youth Soccer Organization (AYSO) to coach young kids in the game of soccer.</h4>
+    </p>
+    <p style="display: inline-block; vertical-align: middle;">
+      <h4>This summer, I worked as an intern at Galileo Summer camp for kids where I had the opportunity to hone my leadership skills by mentoring and training young kids in the art of Video Programming.</h4>
+    </p>
+</body>
+
 </html>
