@@ -54,3 +54,12 @@ app.get('/camp_background', (req, res) => {
 app.get('/css/header', (req, res) => {
   res.sendFile(__dirname + '/resources/css/header.css')
 })
+app.get('/background', (req, res) => {
+  res.sendFile(__dirname + '/resources/etc/background.png')
+})
+app.get('/soccer_team_photo', (req, res) => {
+  res.sendFile(__dirname + '/resources/etc/team_photo.png')
+})
+app.get('/galileo_team_photo', (req, res) => {
+  res.sendFile(__dirname + '/resources/etc/staff_photo.jpg')
+})

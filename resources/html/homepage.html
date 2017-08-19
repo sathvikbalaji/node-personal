@@ -25,26 +25,39 @@
     #about-me {
       font-family: 'Playfair Display', serif;
     }
+
+    p {
+      font-size: 16px;
+      padding-top: 20px;
+    }
   </style>
 </head>
 
-<body style="background: url('/beach') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<body style="background-color: #E1E7FD;">
   <div id="header"></div>
   <div id="name" class="jumbotron-grey container" style="padding-top: 100px;">
     <h1>Sathvik Balaji</h1>
   </div>
-  <div id="about-me" style="padding-top: 100px; padding-left: 200px; width: 600px; align: left; color:#000000;">
+  <div id="about-me" class="jumbotron-grey container" style="color:#000000; padding-top: 50px;">
+    <div id="picture" style="margin: auto;">
+      <img src="/beach" style="margin: auto; max-width:100%; height:auto; border:1px solid #000000;">
+    </div>
+    <h3 style="display: inline-block; vertical-align: left; padding-top: 20px;">About Me</h3>
     <p style="display: inline-block; vertical-align: middle; ">
-      <h4>I am a senior at Cupertino High School, California. I am heading to college fall of 2018 and I am excited and look forward to this new phase of my life. I plan to pursue an undergraduate degree in Computer Science.
-      To that end, I am preparing myself by enrolling in the AP Computer Science A as well as AP Statistics classes.</h4>
+      Hi, I'm Sathvik! I am a senior at Cupertino High School, and next year, I'll be heading to college. Having lived in the Bay Area my entire life, I'm excited and look forward to this new phase of my life. I plan to pursue an undergraduate degree in Computer
+      Science.
     </p>
+    <h3 style="display: inline-block; vertical-align: left; padding-top: 20px;">Interests</h3>
     <p style="display: inline-block; vertical-align: middle;">
-      <h4>I play the Cello and I am a section lead and first chair at the Cupertino High School's prestigious Chamber Orchestra. I am passionate about the game of soccer, having played a competitive league in the Santa Clara County.
-      I have also volunteered at the American Youth Soccer Organization (AYSO) to coach young kids in the game of soccer.</h4>
+      In my spare time, I enjoy playing the cello, playing soccer and basketball, and watching sports (mainly the EPL and NFL). My favorite classical cellists are Mstislav Rostropovich and Gautier Capuçon, and my favorite contemporary cellists are Luka Sulic and Stjepan Hauser.
+      The sports teams I most closely follow are Real Madrid CF and the San Francisco 49ers.
     </p>
+    <h3 style="display: inline-block; vertical-align: left; padding-top: 20px;">About This Website</h3>
     <p style="display: inline-block; vertical-align: middle;">
-      <h4>This summer, I worked as an intern at Galileo Summer camp for kids where I had the opportunity to hone my leadership skills by mentoring and training young kids in the art of Video Programming.</h4>
+      This summer, I wanted to build on my programming skills by building an application from start to finish. This website, which is the result of my learning, illustrates details about the activities that I enjoy.
+      It was built using <code>Node.js</code>, <code>Javascript</code>, <code>CSS3</code>, and <code>HTML5</code>, and is hosted on Heroku. <code>Node.js</code>, a Javascript backend framework, was used in conjunction with Javascript to route URLs to the appropriate HTML pages; CSS was used to enhance the presentation of the HTML pages.
     </p>
+  </div>
 </body>
 
 </html>
